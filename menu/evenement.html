@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Menu simple HTML et CSS</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="fond">
+        <header>
+
+            <img src="images/logo1.png" alt="logo">
+
+        </header>
+        <div class="slogan">
+            <p><em>Si tu veux quelque chose</em> <br>
+                que tu n'as jamais eu <br>
+                <em>fais quelque chose</em><br>
+                que tu n'as jamais fait
+            </p>
+
+        </div>
+        <div class="hearderbutton">
+            <a class="connexion" href="seconnecter.html">connexion</a>
+            <a class="inscription" href="inscription.html">inscription</a>
+        </div>
+
+    </div>
+
+    <nav>
+        <div class="table">
+            <ul>
+                <li class="menu-html"><a href="index.html">Accueil</a></li>
+                <li class="menu-sport"><a href="sport.html">Sports</a></li>
+                <li class="menu-lieu"><a href="lieu.html">Lieux</a></li>
+                <li class="menu-evenement"><a href="evenement.html">Evènements</a></li>
+                <li class="menu-contact"><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <header class="filAriane">
+        <p><a href="index.html">Accueil</a>-Evenement</p>
+    </header>
+    <form class="searchthis">
+        <input id="search" name="q" type="text" placeholder="Rechercher" />
+        <input id="search-btn" type="submit" value="Rechercher" />
+    </form>
+    <div class="trier">
+        <p>TRIER PAR </p>
+        <select id="listTri" name="listTri">
+            <option value="D" selected>Les plus récents </option>
+            <option value="M">Les plus consultés</option>
+        </select> <br>
+        <select id="listSport" name="listSport">
+            <option value="D" selected>Sports</option>
+            <option value="M">VTT</option>
+            <option value="M">Jetski</option>
+            <option value="M">Kitesurf</option>
+            <option value="M">Ski</option>
+            <option value="M">Escalade</option>
+            <option value="M">Plongée</option>
+        </select> <br>
+    </div>
+    <h1 class="spot"><i class="fas fa-haykal"></i> Evènements</h1>
+    <section class="aperçuinitiallx">
+        <section class="aperçulx">
+            <a href="eventSkiFraiture.html">
+                <div>
+                    <img src="images/apercuski.jpg" alt="nico">
+
+                    <p>Spot de ski | NOUVEAU !</p>
+                    <h2>Baraque De Fraiture | Descente aux flambeaux</h2>
+                    <p>34 vues | ajouté le 14/06/18 <span class="note"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="fas fa-star"></i></span></p>
+                </div>
+            </a>
+        </section>
+        <section class="aperçulx">
+            <a href="eventSurfersParadise.html">
+                <div>
+                    <img src="images/surfersparadise.jpg" alt="nico">
+                    <p>Spot de kitesurf | MODIFIE !</p>
+                    <h2>Surfers Paradise | Concours de figures</h2>
+                    <p>35 vues | ajouté le 21/18<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star-half-alt"></i></p>
+                </div>
+            </a>
+        </section>
+        <section class="aperçulx">
+            <a href="eventDurbuyAventure.html">
+                <div>
+                    <img src="images/escaladeLieu.jpg" alt="nico">
+                    <p>Spot d'escalade | NOUVEAU !</p>
+                    <h2>Durbuy Adventure | Initiation escalade</h2>
+                    <p>79 vues | ajouté le 22/11/18 <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+                </div>
+            </a>
+        </section>
+    </section>
+    <div class="centerpagination">
+        <div class="pagination">
+            <a href="evenement.html">&laquo;</a>
+            <a href="evenement.htlm" class="actif">1</a>
+            <a href="">2</a>
+            <a href="">3</a>
+            <a href="">4</a>
+            <a href="">5</a>
+            <a href="">6</a>
+            <a href="">7</a>
+            <a href="">&raquo;</a>
+        </div>
+    </div>
+    <footer>
+        <div class="baspage">
+            <p>© 2018 Blue Cow - Made in Belgium. <a href="https://fr.wikiloc.com/wikiloc/terms_en.html?v5.1">Conditions
+                    d'utilisation</a> | <a href="https://fr.wikiloc.com/wikiloc/terms_en.html?v5.1">Confidentialité</a></p>
+        </div>
+    </footer>
+</body>
+
+
+
+</html>
